@@ -1,0 +1,148 @@
+:root{
+    font-size: 16px;
+}
+body {margin:0;
+      padding: 0;}
+
+.ulq {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.liq {
+    float: right;
+}
+
+.liq a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Montserrat';
+}
+
+.liq a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
+.parallax {
+    /* The image used */
+    background-image: url("img1.jpg");
+
+    /* Set a specific height */
+    height: 600px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:100%;
+    height: 1500px;
+}
+
+.h1{
+    color: #f06023;
+    margin: 5vw;
+    font-family: 'Montserrat';
+}
+
+.para{
+    color:white;
+    font-size: 24px;
+    font-family: 'Montserrat';
+}
+
+.para1{
+    color:white;
+    font-size: 24px;
+    margin: 5vw;
+    font-family: 'Montserrat';
+}
+.img_c{
+    background:#2c2c2c;
+    display: flex;
+    margin: 5vw;
+}
+
+.img_layout{
+    padding-left: 30px;
+    padding-right: 30px;
+    float: right;
+    flex: 50%;
+}
+
+.img_layout1{
+    float: right;
+    padding-top: 100px;
+    padding-left: 20%;
+}
+
+.img_content{
+    color: whitesmoke;
+    font-size: 16px;
+    height: 250px;
+    width: 40%;
+    float: right;
+    font-family: 'Montserrat';
+}
+
+
+
+.img_content1{
+    color: darkblue;
+    font-size: 20px;
+    height: 250px;
+    width: 50%;
+    float: right;
+    font-family: 'Montserrat';
+}
+
+.banner .card {
+
+    background: #2c2c2c;
+    border: 1px solid #2c2c2c;
+    border-radius: 10px;
+    /* box-shadow: 0px 3px 20px 2px #35eea4; */
+    display: flex;
+    }
+    .banner .card .heading {
+      color: #35eea4;
+      font-family: "Playfair Display", serif;
+      font-size: 3rem;
+      font-weight: 700;
+      margin-bottom: 1vh;
+      padding: 5vw; 
+      height: 150px;}
+  
+    .banner .card .sub-heading {
+      color: #35eea4;
+      font-family: "Playfair Display", serif;
+      font-size: 2rem;
+      margin: 5vw;
+      
+    }
+
+    .banner .card1 {
+
+        background: #2c2c2c;
+        border: 1px solid #2c2c2c;
+        border-radius: 10px;
+        /* box-shadow: 0px 3px 20px 2px #35eea4; */
+        width: 50%;
+        }
+
+
+
+  
